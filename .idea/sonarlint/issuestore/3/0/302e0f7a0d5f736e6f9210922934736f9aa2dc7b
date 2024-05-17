@@ -1,15 +1,0 @@
-
-
-java:S1488m"fImmediately return this expression instead of assigning it to the temporary variable "orderResponses".(ÛŒŒÁøÿÿÿÿ
-
-java:S1488"eImmediately return this expression instead of assigning it to the temporary variable "orderResponse".(£´³»üÿÿÿÿ
-T
-java:S1854d"9Remove this useless assignment to local variable "carts".(ú¼´ˆøÿÿÿÿ
-m
-java:S1128"WRemove this unused import 'com.example.sneaker.model.response.product.ProductResponse'.(”“ñä
-c
-java:S1128"MRemove this unused import 'org.springframework.security.core.Authentication'.(ñıÓ“
-r
-java:S1128"\Remove this unused import 'org.springframework.security.core.context.SecurityContextHolder'.(ŒÄæë
-E
-java:S1068."/Remove this unused "cartService" private field.(›¢™
