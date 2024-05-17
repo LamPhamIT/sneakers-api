@@ -1,0 +1,9 @@
+
+k
+java:S1192C"PDefine a constant instead of duplicating this literal "/api/v1/product" 3 times.(³»εφÿÿÿÿÿ
+a
+java:S1192C"FDefine a constant instead of duplicating this literal "ADMIN" 4 times.(³»εφÿÿÿÿÿ
+b
+java:S1192M"MDefine a constant instead of duplicating this literal "/api/v1/cart" 3 times.(ς
+T
+java:S18746"9Remove this use of "authorizeRequests"; it is deprecated.(ΏΠ±ϋÿÿÿÿ

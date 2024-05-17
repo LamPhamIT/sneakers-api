@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd"
+        objectQuotingStrategy="QUOTE_ONLY_RESERVED_WORDS">
+    <changeSet id="1701796463960-3" author="win10 (generated)">
+        <addColumn tableName="tbl_product">
+            <column name="desciption" type="NVARCHAR(1000)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="1701796463960-4" author="win10 (generated)">
+        <addNotNullConstraint columnDataType="NVARCHAR(1000)" columnName="desciption" tableName="tbl_product"/>
+    </changeSet>
+    <changeSet id="1701796463960-5" author="win10 (generated)">
+        <dropColumn columnName="desc" tableName="tbl_product"/>
+    </changeSet>
+    <changeSet id="1701796463960-1" author="win10 (generated)">
+        <modifyDataType columnName="name" newDataType="NVARCHAR(100)" tableName="tbl_category"/>
+    </changeSet>
+    <changeSet id="1701796463960-2" author="win10 (generated)">
+        <modifyDataType columnName="name" newDataType="NVARCHAR(100)" tableName="tbl_product"/>
+    </changeSet>
+    <changeSet id="1701832690305-1" author="lampham (generated)">
+        <addNotNullConstraint columnDataType="NVARCHAR(100)" columnName="name" tableName="tbl_category"
+                              validate="true"/>
+    </changeSet>
+    <changeSet id="1701832838545-1" author="lampham (generated)">
+        <addNotNullConstraint columnDataType="NVARCHAR(100)" columnName="name" tableName="tbl_category"
+                              validate="true"/>
+
+        <dropUniqueConstraint constraintName="uc_tbl_size_size" tableName="tbl_size"/>
+    </changeSet>
+
+</databaseChangeLog>
