@@ -43,7 +43,7 @@ jobs:
         if: always()
         with:
           name: Unit-Test-Results
-          path: "reports/*.xml"
+          path: "**/surefire-reports/*.xml"
           reporter: java-junit
       - name: Analyze with Sonarcloud
         if: ${{ github.event.pull_request.head.repo.full_name == github.repository || github.ref == 'refs/heads/main' }}
