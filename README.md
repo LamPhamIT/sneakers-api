@@ -27,7 +27,7 @@ docker compose up
 ```
 **_NOTE:_** make sure you are in the path location with the docker-compose.yml file
 
-This is the result if you install successfully
+This is the result if you install successfully with [this url](http://localhost:8080/swagger-ui/index.html)
 
 ![example swagger ui](https://raw.githubusercontent.com/lamphamit/sneakers-api/main/swagger-ui-result-example.png)
 
