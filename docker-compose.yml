@@ -17,7 +17,7 @@ services:
       - SLEEP_LENGTH=5
       - spring.datasource.url=jdbc:mysql://mysqldb:3306/sneakers
       - spring.datasource.username=root
-      - spring.datasource.password=lamdz2k4
+      - spring.datasource.password=admin
       - spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
     ports:
       - "8080:8080"
